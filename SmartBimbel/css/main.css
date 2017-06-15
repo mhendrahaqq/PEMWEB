@@ -1,0 +1,70 @@
+body{
+    background-color: #a86e17;
+}
+.panel{
+    background-color: whitesmoke;
+    border-color: #af7011;
+}
+#navigator {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aa7a33;
+}
+
+
+/* Float the list items side by side */
+
+ul.topnav li {
+    float: left;
+}
+
+
+/* Style the links inside the list items */
+
+ul.topnav li a {
+    display: inline-block;
+    color: #1c1c1c;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+
+/* Change background color of links on hover */
+
+ul.topnav li a:hover {
+    background-color: sandybrown;
+}
+
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+ul.topnav li.icon {
+    display: none;
+}
+
+
+/* Saat lebar layar kurang dari 680 pixel, sembunyikan semua menu item kecuali item 
+yang pertama yaitu("Home"). Tampilkan juga list item yang berisi link untuk membuka 
+menu yaitu (li.icon) 
+*/
+
+
+.topnav {
+    font-family: sans-serif;
+}
+
+.kanan{
+    float: right;  
+}
