@@ -21,14 +21,11 @@ ul.topnav {
 }
 
 
-/* Float the list items side by side */
-
 ul.topnav li {
     float: left;
 }
 
 
-/* Style the links inside the list items */
 
 ul.topnav li a {
     display: inline-block;
@@ -41,24 +38,15 @@ ul.topnav li a {
 }
 
 
-/* Change background color of links on hover */
 
 ul.topnav li a:hover {
     background-color: sandybrown;
 }
 
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-
 ul.topnav li.icon {
     display: none;
 }
 
-
-/* Saat lebar layar kurang dari 680 pixel, sembunyikan semua menu item kecuali item 
-yang pertama yaitu("Home"). Tampilkan juga list item yang berisi link untuk membuka 
-menu yaitu (li.icon) 
-*/
 
 
 .topnav {
@@ -67,4 +55,20 @@ menu yaitu (li.icon)
 
 .kanan{
     float: right;  
+}
+#kolom{
+    margin-top: 70px;
+}
+#bawah{
+    margin-bottom: 100px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #aa7a33;
+}
+p{
+    font-size: 15px;
+}
+#copyright{
+    text-align: center;
+    font-size: 12px;
 }

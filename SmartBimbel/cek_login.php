@@ -18,7 +18,7 @@ if(!empty($_POST)){
 
     }
     else{
-      echo "<script type='text/javascript'>alert('Username atau Password Salah!');window.location='index.php'</script>";
+      echo "<script type='text/javascript'>alert('Username atau Password Salah!');window.location='login.php'</script>";
     }
   }
 ?>

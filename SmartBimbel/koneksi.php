@@ -1,5 +1,5 @@
 <?php
 
-$koneksi = mysqli_connect("localhost","root","adminroot","smartbimbel");
+$koneksi = mysqli_connect("localhost","root","","smartbimbel");
 
 ?>

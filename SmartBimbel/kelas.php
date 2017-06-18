@@ -52,7 +52,7 @@
             </div>
         </ul>
     </nav>
-       <div class="kolom">
+       <div id="kolom" class="container-fluid">
             <div class="col-sm-12">
 
                 <div class="panel panel-default">
@@ -91,8 +91,33 @@
                     </div>
                 </div>
 
-            </div'
+</div>
             </div>
+            <footer>
+        <div id="bawah" class="container-fluid">
+            <div class="col-sm-4">
+                 <h4><img src="png/001-school.png" width="10%">
+                Jl. Pegangsaan timur no. 56, Jakarta.</h4>
+                
+              
+            </div>
+            <div class="col-sm-4">
+                 <h4> <img src="png/002-technology.png" width="8%">
+                
+                (0989) 8888888</h4>
+                       <h4><img src="png/whatsapp.png" width="8%"> 0988997765</h4>
+              
+            </div>
+            <div class="col-sm-4">
+                <p><img src="png/dribbble.png" width="4%"> www.smartbimbel.com</p>
+                <p><img src="png/facebook.png" width="4%"> Smart Bimbel</p>
+                <p><img src="png/google-plus.png" width="4%"> smartbimbel@gmail.com</p>
+                <p><img src="png/instagram.png" width="4%"> Smart Bimbel</p>
+                <p><img src="png/twitter.png" width="4%"> @smartbimbel</p>
+            </div>
+           <strong> <p id="copyright">PEMWEB | 2017</p></strong>
+        </div>
+    </footer>
 
 </body>
 
