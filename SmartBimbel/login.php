@@ -22,7 +22,7 @@
         }
         #password{
              width: 30%;
-        } 
+        }
         #username{
            width: 30%;
         }
@@ -30,7 +30,7 @@
             margin-bottom: 30%;
         }
     </style>
-    
+
 </head>
 
 <body>
@@ -53,7 +53,7 @@
                     <img src="gambar/dummy.jpg" width="100%" height="10%">
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-sm-6">
 
@@ -61,7 +61,7 @@
                     <div id="login" class="panel-body">
                        <h2>LOGIN</h2>
                         <div>
-                            <form method="POST" action="tour.php">
+                            <form method="POST" action="cek_login.php">
                                 <div class="wrapper">
                                     <input id="username" placeholder="Username" type="text" name="username" required/>
                                 </div>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div></div>
-      
+
 </body>
 
 </html>
